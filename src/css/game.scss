@@ -1,0 +1,65 @@
+.game {
+  h1 {
+    margin-bottom: 4rem;
+  }
+  &__user-choices {
+    margin-top: 2rem;
+  }
+  &__result {
+    margin-top: 2rem;
+    .alert-no-message {
+      display: none;
+    }
+  }
+  &__history {
+    &__round {
+      margin: 0;
+      border-top: 1px solid #CCC;
+      padding: 1.5rem;
+    }
+    &__list {
+      li {
+        border-top: 1px solid #CCC;
+        padding: 1rem 0;
+        font-size: 2rem;
+      }
+      &--winner {
+        font-family: FontAwesome;
+        &:before {
+          content: "\f00c";
+          color: #129e12;
+        }
+        .fa {
+          font-weight: 600;
+        }
+      }
+      &--loser {
+        opacity: .5;
+      }
+    }
+  }
+  &__history, &__score {
+    &__list {
+      padding: 0;
+      list-style: none;
+    }
+  }
+  &__score {
+    li {
+      display: inline-block;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      min-width: 6rem;
+      label {
+        display: block;
+      }
+    }
+  }
+  &__current-choice {
+    padding: 1rem;
+    .fa {
+      color: #0585af;
+      font-size: 14rem;
+    }
+  }
+}

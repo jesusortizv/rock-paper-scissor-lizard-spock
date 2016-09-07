@@ -1,5 +1,6 @@
-require('../css/main.scss');
+require('../../node_modules/font-awesome-webpack');
+require('../../node_modules/bootstrap-css-only');
+require('../css/game.scss');
+import Game from './components/game/game';
 
-import print from './module';
-
-print('it works well!');
+new Game();

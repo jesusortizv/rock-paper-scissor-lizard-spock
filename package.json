@@ -27,6 +27,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.19.0",
     "http-server": "^0.9.0",
+    "json-loader": "^0.5.4",
     "karma": "^0.13.22",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^1.0.1",
@@ -44,5 +45,13 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap-css-only": "^3.3.6",
+    "document-register-element": "^1.0.9",
+    "file-loader": "^0.9.0",
+    "i": "^0.3.5",
+    "iconfonts": "^0.9.0",
+    "url-loader": "^0.5.7"
+  }
 }

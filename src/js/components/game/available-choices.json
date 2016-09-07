@@ -1,0 +1,23 @@
+{
+  "choices": [{
+    "id": 1,
+    "name": "Rock",
+    "wins": [4,3]
+  },{
+    "id": 2,
+    "name": "Paper",
+    "wins": [1,5]
+  },{
+    "id": 3,
+    "name": "Scissors",
+    "wins": [2,4]
+  },{
+    "id": 4,
+    "name": "Lizard",
+    "wins": [5,2]
+  },{
+    "id": 5,
+    "name": "Spock",
+    "wins": [3,1]
+  }]
+}
