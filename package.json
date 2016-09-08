@@ -43,15 +43,14 @@
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "bootstrap-css-only": "^3.3.6",
+    "file-loader": "^0.9.0",
+    "url-loader": "^0.5.7",
+    "font-awesome": "^4.6.3",
+    "font-awesome-webpack": "0.0.4"
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "bootstrap-css-only": "^3.3.6",
-    "document-register-element": "^1.0.9",
-    "file-loader": "^0.9.0",
-    "i": "^0.3.5",
-    "iconfonts": "^0.9.0",
-    "url-loader": "^0.5.7"
   }
 }
